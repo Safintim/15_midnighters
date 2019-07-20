@@ -20,9 +20,10 @@ def load_attempts():
 
 def get_midnighters():
     for attempt in load_attempts():
+        start_morning = 4
         timezone = pytz.timezone(attempt['timezone'])
         date_attempt = datetime.fromtimestamp(attempt['timestamp'], tz=timezone)
-        if date_attempt.time() < time(4):
+        if date_attempt.time() < time(start_morning):
             print(date_attempt.strftime("%m/%d/%Y, %H:%M:%S"), attempt['username'])
 
 
