@@ -1,7 +1,53 @@
-# Night Owls Detector
+# Совы на девмане
 
-[TODO. There will be project description]
+## Описание
 
-# Project Goals
+Скрипт, выводит сколько учащихся отправили задание на проверку после 24:00.
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+## Требования
+
+*Python3*
+
+## Как запустить
+
+Склонировать репозиторий и установить зависимости из requirements.txt:
+
+```sh
+git clone https://github.com/Safintim/15_midnighters.git
+cd 15_midnighters
+pip install -r requirements.txt
+```
+Запустить скрипт
+
+```sh
+python seek_dev_nighters.py
+```
+
+## Примеры запуска скрипта
+
+```sh
+python seek_dev_nighters.py
+
+07/10/2019, 01:32:38 paul_a_s
+07/10/2019, 00:08:12 iliarkhpv
+07/05/2019, 01:32:08 ten.rum
+07/01/2019, 01:23:20 space_bastard
+06/28/2019, 03:19:01 id1500334
+06/28/2019, 02:48:25 id1500334
+06/28/2019, 02:30:13 id1500334
+06/28/2019, 02:15:15 id1500334
+06/28/2019, 01:23:41 id1500334
+06/22/2019, 03:19:32 belkovskiyss
+06/21/2019, 00:27:38 space_bastard
+06/20/2019, 02:46:02 space_bastard
+06/20/2019, 01:59:55 space_bastard
+06/19/2019, 01:54:29 paul_a_s
+06/19/2019, 00:35:51 vmamedov1984
+06/11/2019, 00:36:35 lshifr
+06/11/2019, 00:27:13 lshifr
+06/11/2019, 00:20:39 lshifr
+```
+
+## Цели проекта
+
+Код создан в учебных целях. В рамках учебного курса по веб-разработке - [DEVMAN.org](https://devman.org)
