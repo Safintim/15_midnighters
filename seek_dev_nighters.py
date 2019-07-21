@@ -10,7 +10,7 @@ def main():
 
 def load_attempts():
     url = 'http://devman.org/api/challenges/solution_attempts/'
-    for page in count(1):
+    for page in count(start=1):
         page_data = requests.get(url, params={'page': page}).json()
         if page >= page_data['number_of_pages']:
             break
