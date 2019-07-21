@@ -22,10 +22,9 @@ def load_attempts():
         response = requests.get(url, params={'page': page})
         response.raise_for_status()
         page_data = response.json()
+        yield from page_data['records']
         if page >= page_data['number_of_pages']:
             break
-        for attempt in page_data['records']:
-            yield attempt
 
 
 if __name__ == '__main__':
