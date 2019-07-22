@@ -28,24 +28,14 @@ python seek_dev_nighters.py
 ```sh
 python seek_dev_nighters.py
 
-07/10/2019, 01:32:38 paul_a_s
-07/10/2019, 00:08:12 iliarkhpv
-07/05/2019, 01:32:08 ten.rum
-07/01/2019, 01:23:20 space_bastard
-06/28/2019, 03:19:01 id1500334
-06/28/2019, 02:48:25 id1500334
-06/28/2019, 02:30:13 id1500334
-06/28/2019, 02:15:15 id1500334
-06/28/2019, 01:23:41 id1500334
-06/22/2019, 03:19:32 belkovskiyss
-06/21/2019, 00:27:38 space_bastard
-06/20/2019, 02:46:02 space_bastard
-06/20/2019, 01:59:55 space_bastard
-06/19/2019, 01:54:29 paul_a_s
-06/19/2019, 00:35:51 vmamedov1984
-06/11/2019, 00:36:35 lshifr
-06/11/2019, 00:27:13 lshifr
-06/11/2019, 00:20:39 lshifr
+lshifr
+iliarkhpv
+belkovskiyss
+space_bastard
+vmamedov1984
+id1500334
+ten.rum
+paul_a_s
 ```
 
 ## Цели проекта
