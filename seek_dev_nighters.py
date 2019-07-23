@@ -6,20 +6,21 @@ from datetime import datetime, time
 
 def main():
     try:
-        print_midnighters()
+        attempts = list(load_attempts())
+        print_midnighters(get_midnighters(attempts))
     except requests.exceptions.RequestException as e:
         exit(e)
 
 
-def print_midnighters():
-    for midnighter in get_midnighters():
+def print_midnighters(midnighters):
+    for midnighter in midnighters:
         print(midnighter)
 
 
-def get_midnighters():
+def get_midnighters(attempts):
     midnighters = set()
     start_morning = 4
-    for attempt in load_attempts():
+    for attempt in attempts:
         timezone = pytz.timezone(attempt['timezone'])
         date_attempt = datetime.fromtimestamp(attempt['timestamp'], tz=timezone)
         if date_attempt.time() < time(start_morning):
